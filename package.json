@@ -1,0 +1,14 @@
+{
+  "name": "csv-lookup",
+  "version": "0.0.0",
+  "description": "Add or replace a column value in source CSV file with lookup from another CSV file.",
+  "author": "John Stein",
+  "license": "Unlicense",
+  "dependencies": {
+    "commander": "2.14.1",
+    "csv-stream-transform": "0.0.4"
+  },
+  "bin": {
+    "csv-lookup": "csv-lookup.js"
+  }
+}
