@@ -1,7 +1,7 @@
 # csv-lookup
 
-Add or replace a column value in source CSV file with lookup from another CSV
-file.
+csv-lookup is a Node.js command line app that adds or replaces a column
+value in a source CSV file by looking up a value in a lookup CSV file.
 
 ## Install
 
