@@ -43,7 +43,7 @@ let count = 0;
 
 require('csv-stream-transform')({
   transform(row, cb) {
-    if (row[cmd.keyField] && (count++ % 2 === 0)) {
+    if (row[cmd.keyField]) {
       lookup[row[cmd.keyField]] = row[cmd.valueField];
     }
     cb();
